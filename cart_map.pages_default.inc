@@ -69,7 +69,7 @@ function cart_map_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Cuban Art Exhibits Map';
+  $display->title = 'Cuban Art Map';
   $display->uuid = '584e7d29-f134-4e54-9770-8852d8c00800';
   $display->content = array();
   $display->panels = array();
