@@ -60,19 +60,19 @@ function cart_map_views_default_views() {
   No results were returned by the query. Please <strong>reset the filter</strong> or try again with different filtering options.
 </div>';
   $handler->display->display_options['empty']['area']['format'] = 'full_html';
-  /* Relationship: Broken/missing handler */
+  /* Relationship: referenced from field_cart_venue */
   $handler->display->display_options['relationships']['field_cart_venue_target_id']['id'] = 'field_cart_venue_target_id';
   $handler->display->display_options['relationships']['field_cart_venue_target_id']['table'] = 'field_data_field_cart_venue';
   $handler->display->display_options['relationships']['field_cart_venue_target_id']['field'] = 'field_cart_venue_target_id';
   $handler->display->display_options['relationships']['field_cart_venue_target_id']['ui_name'] = 'referenced from field_cart_venue';
   $handler->display->display_options['relationships']['field_cart_venue_target_id']['label'] = 'referenced from field_cart_venue';
-  /* Relationship: Broken/missing handler */
+  /* Relationship: referenced from field_cart_artist */
   $handler->display->display_options['relationships']['field_cart_artist_target_id']['id'] = 'field_cart_artist_target_id';
   $handler->display->display_options['relationships']['field_cart_artist_target_id']['table'] = 'field_data_field_cart_artist';
   $handler->display->display_options['relationships']['field_cart_artist_target_id']['field'] = 'field_cart_artist_target_id';
   $handler->display->display_options['relationships']['field_cart_artist_target_id']['ui_name'] = 'referenced from field_cart_artist';
   $handler->display->display_options['relationships']['field_cart_artist_target_id']['label'] = 'referenced from field_cart_artist';
-  /* Relationship: Broken/missing handler */
+  /* Relationship: referenced from field_cart_curator */
   $handler->display->display_options['relationships']['field_cart_curator_target_id']['id'] = 'field_cart_curator_target_id';
   $handler->display->display_options['relationships']['field_cart_curator_target_id']['table'] = 'field_data_field_cart_curator';
   $handler->display->display_options['relationships']['field_cart_curator_target_id']['field'] = 'field_cart_curator_target_id';
@@ -98,7 +98,7 @@ function cart_map_views_default_views() {
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
   $handler->display->display_options['fields']['title']['element_type'] = 'h4';
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
-  /* Field: Broken/missing handler */
+  /* Field: Content: Date */
   $handler->display->display_options['fields']['field_cart_date']['id'] = 'field_cart_date';
   $handler->display->display_options['fields']['field_cart_date']['table'] = 'field_data_field_cart_date';
   $handler->display->display_options['fields']['field_cart_date']['field'] = 'field_cart_date';

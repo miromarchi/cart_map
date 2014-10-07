@@ -136,7 +136,7 @@ function cart_map_default_page_manager_pages() {
     'type' => 'normal',
     'title' => 'Map',
     'name' => 'main-menu',
-    'weight' => '0',
+    'weight' => '2',
     'parent' => array(
       'type' => 'none',
       'title' => '',
