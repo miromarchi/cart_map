@@ -429,6 +429,10 @@ function cart_map_views_default_views() {
   $handler->display->display_options['fields']['field_cart_artist']['element_label_type'] = 'strong';
   $handler->display->display_options['fields']['field_cart_artist']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_cart_artist']['hide_empty'] = TRUE;
+  $handler->display->display_options['fields']['field_cart_artist']['settings'] = array(
+    'link' => 1,
+  );
+  $handler->display->display_options['fields']['field_cart_artist']['delta_offset'] = '0';
   /* Field: Content: Curator/s */
   $handler->display->display_options['fields']['field_cart_curator']['id'] = 'field_cart_curator';
   $handler->display->display_options['fields']['field_cart_curator']['table'] = 'field_data_field_cart_curator';
@@ -437,6 +441,10 @@ function cart_map_views_default_views() {
   $handler->display->display_options['fields']['field_cart_curator']['element_class'] = 'curators';
   $handler->display->display_options['fields']['field_cart_curator']['element_label_type'] = 'strong';
   $handler->display->display_options['fields']['field_cart_curator']['hide_empty'] = TRUE;
+  $handler->display->display_options['fields']['field_cart_curator']['settings'] = array(
+    'link' => 1,
+  );
+  $handler->display->display_options['fields']['field_cart_curator']['delta_offset'] = '0';
   $handler->display->display_options['pane_category']['name'] = 'Cart panes';
   $handler->display->display_options['pane_category']['weight'] = '0';
   $handler->display->display_options['inherit_panels_path'] = '1';
