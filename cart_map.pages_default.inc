@@ -240,7 +240,10 @@ function cart_map_default_page_manager_pages() {
   $page->admin_title = 'Cart venues Map';
   $page->admin_description = '';
   $page->path = 'map/venues';
-  $page->access = array();
+  $page->access = array(
+    'type' => 'none',
+    'settings' => NULL,
+  );
   $page->menu = array(
     'type' => 'tab',
     'title' => 'Venues',
