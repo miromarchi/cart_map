@@ -644,7 +644,7 @@ function cart_map_views_default_views() {
   $handler->display->display_options['filters']['field_cart_org_type_tid']['table'] = 'field_data_field_cart_org_type';
   $handler->display->display_options['filters']['field_cart_org_type_tid']['field'] = 'field_cart_org_type_tid';
   $handler->display->display_options['filters']['field_cart_org_type_tid']['value'] = array(
-    6 => '6',
+    1 => '1',
   );
   $handler->display->display_options['filters']['field_cart_org_type_tid']['group'] = 1;
   $handler->display->display_options['filters']['field_cart_org_type_tid']['reduce_duplicates'] = TRUE;
